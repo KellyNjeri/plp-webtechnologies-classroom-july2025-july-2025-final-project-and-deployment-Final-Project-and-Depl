@@ -87,3 +87,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Initialize page
+document.addEventListener('DOMContentLoaded', function() {
+    // Set home page as active
+    navigateToPage('home');
+});
