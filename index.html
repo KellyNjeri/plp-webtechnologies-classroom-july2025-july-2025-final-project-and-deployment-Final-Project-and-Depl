@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kelly Njeri - Data Science & Analytics Professional specializing in Business Intelligence, Backend Development, and Cloud Computing">
+    <meta name="keywords" content="Data Science, Analytics, Business Intelligence, AWS, Power BI, Backend Development, Python">
+    <meta name="author" content="Kelly Njeri">
+    <title>Kelly Njeri - Data Science & Analytics Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">Kelly Njeri</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" onclick="navigateToPage('home')">Home</a></li>
+                <li><a href="#about" class="nav-link" onclick="navigateToPage('about')">About</a></li>
+                <li><a href="#projects" class="nav-link" onclick="navigateToPage('projects')">Projects</a></li>
+                <li><a href="#skills" class="nav-link" onclick="navigateToPage('skills')">Skills</a></li>
+                <li><a href="#contact" class="nav-link" onclick="navigateToPage('contact')">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Data Science & Analytics Professional</h1>
+                <p class="subtitle">Transforming Raw Data into Actionable Intelligence</p>
+                <p class="description">Specializing in Business Intelligence, Backend Development, and Cloud-Native Solutions</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary" onclick="navigateToPage('projects')">View My Work →</a>
+                    <a href="#contact" class="btn btn-outline" onclick="navigateToPage('contact')">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="core-expertise">
+            <h2>Core Expertise</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Data Science & Analytics</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>Predictive Analytics</li>
+                        <li>AI & ML</li>
+                        <li>Sentiment Analysis</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Business Intelligence</h3>
+                    <ul>
+                        <li>AWS QuickSight</li>
+                        <li>Power BI</li>
+                        <li>Amazon Q</li>
+                        <li>Interactive Dashboards</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>RESTful APIs</li>
+                        <li>Flask</li>
+                        <li>FastAPI</li>
+                        <li>SQL</li>
+                        <li>MERN Stack</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS Cloud</li>
+                        <li>DevOps</li>
+                        <li>Scalable Pipelines</li>
+                        <li>CI/CD</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="key-strengths">
+                <h2>Key Strengths</h2>
+                <div class="strengths-grid">
+                    <div class="strength-item">
+                        <span class="check-icon">✓</span>
+                        <span>End-to-end BI and AI-driven solutions</span>
+                    </div>
+                    <div class="strength-item">
+                        <span class="check-icon">✓</span>
+                        <span>Real-time data pipelines and microservices</span>
+                    </div>
+                    <div class="strength-item">
+                        <span class="check-icon">✓</span>
+                        <span>ERP integration and retail analytics</span>
+                    </div>
+                    <div class="strength-item">
+                        <span class="check-icon">✓</span>
+                        <span>Ethical AI and bias detection</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page section-hidden">
+        <section>
+            <h1>About Me</h1>
+            
+            <div class="about-content">
+                <p>I am a <span class="highlight">Data Science and Analytics enthusiast</span> with strong expertise in <span class="highlight">Backend Software Development</span> and cloud-native Business Intelligence (AWS BI & Power BI).</p>
+                
+                <p>My work bridges data engineering, advanced analytics, and scalable backend systems, enabling organizations to transform raw data into actionable intelligence.</p>
+                
+                <p>I specialize in building end-to-end BI and AI-driven solutions, from integrating ERP systems and managing complex datasets, to designing interactive dashboards in Power BI and AWS QuickSight, and deploying secure APIs using Python, Flask/FastAPI, and SQL.</p>
+            </div>
+
+            <div class="certifications">
+                <h2>🏆 Certifications & Achievements</h2>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <span class="cert-icon">✓</span>
+                        <span>AWS Business Intelligence Engineer Certification</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-icon">✓</span>
+                        <span>ALX Data Analytics Program Completion</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-icon">✓</span>
+                        <span>Power BI Specialist Certification</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-icon">✓</span>
+                        <span>DevOps Cloud Specialty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="opportunity-cta">
+                <h2>Currently Seeking Opportunities</h2>
+                <p>Open to internship and early-career positions where I can apply my skills to real-world projects and contribute to impactful teams.</p>
+                <a href="#contact" class="btn btn-outline" onclick="navigateToPage('contact')">Contact Me</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects Page -->
+    <div id="projects" class="page section-hidden">
+        <section>
+            <h1>Featured Projects</h1>
+            <p class="section-subtitle">Showcasing end-to-end BI, data science, and backend development solutions</p>
+
+            <div class="project-card">
+                <h3>AWS QuickSight BI Dashboard</h3>
+                <p>Interactive business intelligence dashboard for retail analytics, tracking sales, inventory, and customer retention metrics.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">AWS QuickSight</span>
+                    <span class="tech-tag">S3</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+                <p class="impact">✓ Reduced reporting time by 60% and improved decision-making speed</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Predictive Demand Forecasting</h3>
+                <p>ML model for predicting product demand using historical sales data and sentiment analysis from customer reviews.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Power BI</span>
+                </div>
+                <p class="impact">✓ Achieved 85% accuracy in demand prediction</p>
+            </div>
+
+            <div class="project-card">
+                <h3>RESTful API for ERP Integration</h3>
+                <p>Scalable backend API connecting ERP systems with cloud-based BI tools for real-time data synchronization.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+                <p class="impact">✓ Processed 10K+ daily transactions with 99.9% uptime</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Customer Sentiment Analysis</h3>
+                <p>NLP-powered sentiment analysis tool for processing customer feedback and generating actionable insights.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">NLTK</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">FastAPI</span>
+                </div>
+                <p class="impact">✓ Identified key satisfaction drivers with 92% accuracy</p>
+            </div>
+
+            <div class="github-cta">
+                <p>Want to see more of my work?</p>
+                <a href="https://github.com/KellyNjeri" target="_blank" class="btn btn-primary github-btn">
+                    GitHub Portfolio →
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Skills Page -->
+    <div id="skills" class="page section-hidden">
+        <section>
+            <h1>Skills & Technologies</h1>
+            <p class="section-subtitle">Comprehensive technical capabilities across the data and development stack</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Data Science & Analytics</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>Predictive Analytics</li>
+                        <li>AI & ML</li>
+                        <li>Sentiment Analysis</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Business Intelligence</h3>
+                    <ul>
+                        <li>AWS QuickSight</li>
+                        <li>Power BI</li>
+                        <li>Amazon Q Business</li>
+                        <li>Interactive Dashboards</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>RESTful APIs</li>
+                        <li>Flask</li>
+                        <li>FastAPI</li>
+                        <li>SQL</li>
+                        <li>MERN Stack</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS Cloud</li>
+                        <li>DevOps</li>
+                        <li>Scalable Pipelines</li>
+                        <li>CI/CD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page section-hidden">
+        <section>
+            <h1>Get In Touch</h1>
+            <p class="section-subtitle">Let's discuss how we can work together on your next data project</p>
+
+            <div class="contact-grid">
+                <div>
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>0792069784</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <a href="mailto:kellynjeri33@gmail.com">kellynjeri33@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info social-section">
+                        <h2>Connect With Me</h2>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/kelly-njeri-dsa/" target="_blank" class="social-link">
+                                <span>🔗 LinkedIn Profile</span>
+                                <span>→</span>
+                            </a>
+                            <a href="https://github.com/KellyNjeri" target="_blank" class="social-link">
+                                <span>💻 GitHub Portfolio</span>
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" id="contactFormContainer">
+                    <h2>Send a Message</h2>
+                    <div id="formContent">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button class="btn btn-primary submit-btn" onclick="submitForm()">Send Message</button>
+                    </div>
+                    <div id="successMessage" class="success-message">
+                        <div class="success-icon">✓</div>
+                        <h3>Message sent successfully!</h3>
+                        <p>I'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Kelly Njeri. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="mailto:kellynjeri33@gmail.com" aria-label="Email">✉️</a>
+            <a href="https://www.linkedin.com/in/kelly-njeri-dsa/" target="_blank" aria-label="LinkedIn">🔗</a>
+            <a href="https://github.com/KellyNjeri" target="_blank" aria-label="GitHub">💻</a>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
